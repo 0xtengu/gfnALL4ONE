@@ -77,7 +77,7 @@ Restart Chrome
 
 ```sh
 cd ~/path/to/gfn-all4one
-mitmdump -s gfn_all4one.py
+mitmproxy -s gfn_all4one.py
 # listens on 127.0.0.1:8080 by default
 ```
 
